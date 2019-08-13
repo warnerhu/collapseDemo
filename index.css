@@ -1,0 +1,23 @@
+.ht-collapse {
+  width: 400px;
+  margin: 0 auto;
+}
+.ht-clickBar {
+  height: 40px;
+  line-height: 40px;
+  padding: 10px;
+  background: bisque;
+  user-select: none;
+}
+.ht-clickBar:hover {
+  cursor: pointer;
+}
+.ht-expandedPart {
+  height: 0px;
+  transition: height 0.4s;
+  background: beige;
+  overflow: hidden;
+}
+.ht-content {
+  padding: 10px;
+}
